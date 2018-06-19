@@ -1,0 +1,7 @@
+applications:
+- name: vijay-springboot-rest-api
+  memory: 1GB
+  instances: 1
+  path: target/demo-0.0.1-SNAPSHOT.jar
+  env:
+      JAVA_VERSION: 1.8.0_+
